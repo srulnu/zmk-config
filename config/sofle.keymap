@@ -89,11 +89,11 @@
             //              |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
- &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                     &trans    &trans  &trans     &trans   &trans    &trans
-     &trans      &kp HOME        &kp UP       &kp END        &trans        &trans                  &kp PG_UP    &trans  &trans     &trans   &kp N0    &trans
-     &trans      &kp LEFT      &kp DOWN     &kp RIGHT        &trans      &kp CLCK                   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp DEL  &kp BSPC
-     &trans    &kp K_UNDO     &kp K_CUT    &kp K_COPY   &kp K_PASTE        &trans  &trans  &trans     &trans    &trans  &trans     &trans   &trans    &trans
-                                 &trans        &trans        &trans        &trans  &trans  &trans     &trans    &trans  &trans     &trans
+      &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4                  &kp KP_NUMLOCK     &kp SLASH      &kp STAR  &kp MINUS           &trans    &trans
+ &kp PRINTSCREEN      &kp HOME        &kp UP       &kp END       &kp PAGE_UP    &kp KP_NUM                    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp PLUS  &kp PRINTSCREEN    &trans
+          &trans      &kp LEFT      &kp DOWN     &kp RIGHT     &kp PAGE_DOWN      &kp CLCK                    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL          &kp DEL  &kp BSPC
+          &trans        &trans        &trans    &kp C_PREV  &kp C_PLAY_PAUSE    &kp C_NEXT  &trans  &trans    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &trans           &trans    &trans
+                                      &trans        &trans            &trans        &trans  &trans  &trans          &trans        &trans        &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
